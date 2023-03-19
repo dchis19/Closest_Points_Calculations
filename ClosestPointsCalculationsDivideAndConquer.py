@@ -20,6 +20,8 @@ The lineClosestCalc() determines if points near the midpoint are closer together
 calculated distances. If so, the minimum distance variable is updated. At the end of the 
 lineClosestCalc() method, the minimum distance is returned.
 
+Time complexity stays around 5 * O(nlog(n)).
+
 """
 
 class DivideAndConquer:
